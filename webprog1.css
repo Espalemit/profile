@@ -1,0 +1,75 @@
+.box {
+	width: 100%;
+	height: 400px;
+	padding-top: 40px;
+	padding-left: 6px;
+	padding-bottom: 40px;
+	padding-right: 6px;
+	margin: -7px -7px -5px;
+}
+
+.box-atas {
+	background-color: rgb(105,168,245);
+}
+
+.box-tengah {
+	background-color: rgb(255,255,255);
+	padding-bottom: 80px;
+}
+
+.box-bawah {
+	background-color: rgb(74,73,72);
+	height: 70px;
+}
+
+.foto {
+	border-radius: 20px;
+	width: 150px;
+	height: 200px;
+	border: 1px solid black;
+	transition: 0.3s;
+}
+
+.foto:hover {
+	width: 170px;
+	height: 220px;
+	transition: 0.3s;
+}
+
+p {
+	text-indent: 20px;
+}
+
+.id {
+	border: 1px solid black;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	margin-left: 150px;
+	font-weight: bold;
+	font-family: monospace,Monaco;
+	padding: 10px 20px 10px;
+	border-radius: 20px;
+	transition: 0.3s;
+}
+
+.id:hover {
+	color: black;
+	background-color: grey;
+	transition: 0.3s;
+}
+
+.center {
+ 	display: block;
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+
+.nama {
+	display: table;
+	margin: 20px auto 20px auto;
+	font-weight: bold;
+	font-family: monospace,"Monaco";
+	color: white;
+	text-shadow: #000 1px 1px 2px;
+}
